@@ -1,9 +1,9 @@
-
 ---
 layout: default
 ---
 
 <article class="post">
+<<<<<<< HEAD
  <h1>{{ page.title }}</h1>
 
  <div class="entry">
@@ -16,3 +16,17 @@ layout: default
 
  {% include disqus.html disqus_identifier=page.disqus_identifier %}
 </article>
+=======
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+
+  {% include disqus.html disqus_identifier=page.disqus_identifier %}
+</article>
+>>>>>>> parent of 9b51f4a... Update post.html
